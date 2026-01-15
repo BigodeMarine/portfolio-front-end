@@ -1,4 +1,4 @@
-# 🚀 Portfólio Front Endd
+# 🚀 Portfólio Front End
 
 Meu portfólio pessoal desenvolvido com **Next.js**, com o objetivo de apresentar meus projetos, habilidades e informações de contato.
 
