@@ -12,7 +12,7 @@ export default function Home() {
 
         <p>
           Crio interfaces modernas, organizadas e responsivas,
-          com foco em boas práticas e experiência de usuário.
+          com foco na experiência do usuário.
         </p>
 
         <div className={styles.actions}>
