@@ -1,0 +1,30 @@
+/* Visual do Footer */
+.footer {
+  background: #0f0f0f;
+  color: #ccc;
+  padding: 1.8rem 1rem;
+  margin-top: 4rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Texto */
+.container p {
+  font-size: 0.9rem;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+}

@@ -1,0 +1,73 @@
+/* Container principal */
+.project {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Imagem do projeto */
+.image {
+    width: 100%;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
+
+/* Descrição */
+.description {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Lista de tecnologias */
+.techList {
+    list-style: none;
+    display: flex;
+    gap: 0.75rem;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+/* Item da tecnologia */
+.techList li {
+    background-color: #222;
+    color: white;
+    padding: 0.4rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+/* Links */
+.links {
+    color: #0070f3;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.links a {
+    font-weight: 600;
+    position: relative;
+}
+
+.links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: #0070f3;
+    transition: width 0.3s ease;
+}
+
+.links a:hover::after {
+    width: 100%;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .project {
+        padding: 1.5rem;
+    }
+}

@@ -1,0 +1,62 @@
+/* Remove margens e espaçamentos padrão do navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Fonte e cor padrão do site */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0b1220;
+  color: #222;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Define um padrão para o conteúdo principal */
+main {
+  flex: 1;
+}
+
+/* Padroniza títulos */
+h1, h2, h3 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+/* Padroniza parágrafos */
+p {
+  margin-bottom: 0.75rem;
+}
+
+/* Remove estilos padrões de listas */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Estilo padrão para links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Melhora a experiência de botões */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Container global de largura */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+

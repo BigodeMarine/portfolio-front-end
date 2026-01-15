@@ -1,0 +1,66 @@
+/* página home */
+.hero {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1.5rem;
+  background: linear-gradient(180deg, #0f172a 0%, #304a86 100%);
+}
+
+.content {
+  max-width: 700px;
+  text-align: center;
+}
+
+
+.content h2 {
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+
+/* Breve resumo */
+.content p {
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 2.5rem;
+}
+
+/* Botões */
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.primary {
+  background: #0070f3;
+  color: #fff;
+  padding: 0.85rem 1.75rem;
+  border-radius: 999px;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.primary:hover {
+  background: #0059c1;
+  transform: translateY(-2px);
+}
+
+.secondary {
+  color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 0.85rem 1.75rem;
+  border-radius: 999px;
+  font-weight: 600;
+  transition: border-color 0.3s ease, transform 0.2s ease;
+}
+
+.secondary:hover {
+  border-color: #0070f3;
+  transform: translateY(-2px);
+}
